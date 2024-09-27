@@ -37,7 +37,74 @@ offset_right = 201.0
 offset_bottom = 274.0
 text = "Zbierz 3"
 
+<<<<<<< HEAD
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(517.938, 346)
 scale = Vector2(0.628927, 0.550691)
+=======
+[node name="Zapalka1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(775, 377)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(301, 175)
+scale = Vector2(0.109948, 0.144546)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(347, 180)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka4" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(232, 356)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka5" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(288, 369)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka6" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(335, 371)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka7" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(397, 358)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka8" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(163, 370)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka9" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(443, 393)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka10" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(499, 400)
+scale = Vector2(0.101457, 0.138891)
+texture = ExtResource("1_dck5a")
+
+[node name="Zapalka11" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(574, 405)
+scale = Vector2(0.101457, 0.138891)
+>>>>>>> 9f65761 (Ukrywanie zapalek po zabraniu)
 texture = ExtResource("1_dck5a")
