@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://cujmkkm3pmusb"]
+
+[ext_resource type="Texture2D" uid="uid://bnbicq5ho5vvi" path="res://Assets/Zapalka.jpg" id="1_dck5a"]
+[ext_resource type="Script" path="res://Scripts/MainScript.cs" id="1_tjd2p"]
+
+[node name="MainScene" type="Node2D"]
+script = ExtResource("1_tjd2p")
+
+[node name="GameStatusLabel" type="Label" parent="."]
+layout_direction = 1
+offset_left = 751.0
+offset_top = 86.0
+offset_right = 912.0
+offset_bottom = 109.0
+text = "Pozostało 11 zapałek"
+
+[node name="Take1Button" type="Button" parent="."]
+layout_direction = 1
+offset_left = 73.0
+offset_top = 90.0
+offset_right = 201.0
+offset_bottom = 139.0
+text = "Zbierz 1"
+
+[node name="Take2Button" type="Button" parent="."]
+layout_direction = 1
+offset_left = 74.0
+offset_top = 151.0
+offset_right = 202.0
+offset_bottom = 200.0
+text = "Zbierz 2"
+
+[node name="Take3Button" type="Button" parent="."]
+offset_left = 75.0
+offset_top = 217.0
+offset_right = 201.0
+offset_bottom = 274.0
+text = "Zbierz 3"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(517.938, 346)
+scale = Vector2(0.628927, 0.550691)
+texture = ExtResource("1_dck5a")
